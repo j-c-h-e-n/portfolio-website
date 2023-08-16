@@ -4,23 +4,28 @@ import BiographySection from './sections/BiographySection';
 import SkillsSection from './sections/SkillsSection';
 import ExperiencesSection from './sections/ExperiencesSection';
 import ContactSection from './sections/ContactSection';
+import '../app.css';
 
+/**
+ * The divs are responsible for the background of each section. The individual sections host their own content.
+ * @returns The content on the page.
+ */
 const WebBody = () => {
     return (
         <>
-            <div>
+            <div className="landing-section-div">
                 <LandingSection/>
             </div>
-            <div>
+            <div className="biography-section-div">
                 <BiographySection/>
             </div>
-            <div>
+            <div className="skills-section-div">
                 <SkillsSection/>
             </div>
-            <div>
+            <div className="experiences-section-div">
                 <ExperiencesSection/>
             </div>
-            <div>
+            <div className="contact-section-div">
                 <ContactSection/>
             </div>
         </>

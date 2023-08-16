@@ -1,10 +1,11 @@
 import React from 'react';
+import '../app.css';
 
 const NavBar = () => {
     return (
         <nav>
-            <div>
-                <ul>
+            <div className="navigation-bar-div">
+                <menu className="navigation-bar-menu">
                     <a href="/bio">
                         <li>Bio</li>
                     </a>
@@ -17,7 +18,7 @@ const NavBar = () => {
                     <a href="/contact">
                         <li>Contact</li>
                     </a>    
-                </ul>
+                </menu>
             </div>
         </nav>
     )

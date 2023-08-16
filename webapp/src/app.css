@@ -1,0 +1,24 @@
+/* 
+    A section for NavBar.tsx
+*/
+.navigation-bar-div{
+    display: flex;
+    justify-content: stretch;
+}
+
+.navigation-bar-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+/*
+    A section for WebBody.tsx, targeting the Divs.
+*/
+.landing-section-div{
+    display: flex;
+    justify-content: center;
+}
+
+/*
+    Potential sections for the content inside the sections, if there are any styling changes needed.
+*/
